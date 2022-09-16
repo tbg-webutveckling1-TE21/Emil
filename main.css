@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main section img{
+    height: max-content;
+    width: max-content;
+
+}
+main section{
+    background-color: beige;
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    margin: 10px;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.55s;
+}
+
+main section a:hover{
+    font-size: 125%;
+    background-color: rgb(254, 229, 125);
+    border-radius: 10px;
+    background-image: url(20220820_002917.jpg);
+}
