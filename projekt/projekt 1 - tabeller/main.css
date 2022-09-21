@@ -9,6 +9,7 @@ td {
     border: 1px black solid;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity: 0.75;
+    text-align: center;
     padding: 40px
     
 }
