@@ -1,0 +1,14 @@
+table {
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 100%;
+}
+
+td {
+    border: 1px black solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.75;
+    padding: 40px
+    
+}
