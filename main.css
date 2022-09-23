@@ -20,11 +20,6 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
-main section img{
-    height: max-content;
-    width: max-content;
-
-}
 main section{
     background-color: beige;
     height: 200px;
@@ -50,5 +45,4 @@ main section a:hover{
     font-size: 125%;
     background-color: rgb(254, 229, 125);
     border-radius: 10px;
-    background-image: url(20220820_002917.jpg);
 }
