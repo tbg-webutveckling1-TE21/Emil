@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+<meta charset="UTF-8" />
+    <title>Grid</title>
+    <style>
+.item1 { grid-column-start:1 ; grid-column-end:6 ; grid-row-start: 1; grid-row-end: 1; }
+.item2 { grid-column-start:1 ; grid-column-end:3 ; grid-row-start: 2; grid-row-end: 2; }
+.item3 { grid-column-start:3 ; grid-column-end:6 ; grid-row-start: 2; grid-row-end: 2; }
+.item4 { grid-column-start:1 ; grid-column-end:2 ; grid-row-start: 3; grid-row-end: 3; }
+.item5 { grid-column-start:2 ; grid-column-end:3 ; grid-row-start: 3; grid-row-end: 3; }
+.item6 { grid-column-start:3 ; grid-column-end:6 ; grid-row-start: 3; grid-row-end: 3; }
+
+.grid-container > .item1 {
+  background-color: rgb(255, 80, 80);
+}
+
+.grid-container > .item2 {
+  background-color: rgb(156, 228, 136);
+}
+
+.grid-container > .item3 {
+  background-color: rgb(147, 235, 237);
+}
+
+.grid-container > .item4 {
+  background-color: rgb(255, 255, 94);
+}
+
+.grid-container > .item5 {
+  background-color: rgb(255, 255, 94);
+}
+
+.grid-container > .item6 {
+  background-color: rgb(147, 235, 237);
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+  width: 700px;
+  height: 500px;
+  gap: 10px;
+  margin: auto;
+  background-color: #ffffff;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+
+}
+
+.grid-container > div {
+  text-align: start;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  
+}
+
+    </style>
+</head>
+
+<body>
+
+<div class="grid-container">
+    <div class="item1"><b>AAA</b></div>
+    <div class="item2"><b>BBB</b></div>
+    <div class="item3"><b>CCC</b></div>
+    <div class="item4"><b>DDD</b></div>
+    <div class="item5"><b>EEE</b></div>
+    <div class="item6"><b>FFF</b></div>
+
+</div>
+
+
+
+</body>
+
+</html>
