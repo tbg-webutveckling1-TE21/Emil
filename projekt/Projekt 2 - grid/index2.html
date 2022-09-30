@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Grid 2</title>
+        <style>
+            .container{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: 20% 50% 20%;
+                gap: 10px;
+                margin: auto;
+                background-color: white;
+                height: 400px;
+                width: 600px;
+            }
+            .container > div{
+                font-size: 125%;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: start;
+                padding-left: 20px;
+                padding-top: 20px;
+            }
+            .item1{
+                grid-area: 1/1/1/6;
+                background-color: rgb(255, 208, 37);
+            }
+            .item2{
+                grid-area: 2/1/3/1;
+                background-color: rgb(82, 161, 222);
+            }
+            .item3{
+                grid-area: 2/2/3/5;
+                background-color: rgb(247, 255, 128);
+            }
+            .item4{
+                grid-area: 2/5/4/5;
+                background-color: rgb(192, 255, 92);
+            }
+            .item5{
+                grid-area: 3/1/3/5;
+                background-color: rgb(181, 128, 93);
+            }
+
+
+        </style>
+
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="item1">Header</div>
+            <div class="item2">Menu</div>
+            <div class="item3"><h2>Welcome!</h2><br>Hi! Content :-)</div>
+            <div class="item4">Aside</div>
+            <div class="item5">Footer</div>
+
+        </div>
+
+
+
+    </body>
+
+
+
+
+</html>
