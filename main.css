@@ -45,4 +45,6 @@ main section a:hover{
     font-size: 125%;
     background-color: rgb(254, 229, 125);
     border-radius: 10px;
+    font-weight: bolder;
+    color: rgb(52, 29, 168);
 }
