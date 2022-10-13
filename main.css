@@ -29,6 +29,7 @@ main section{
     margin: 10px;
     font-size: 150%;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
 }
 
 main section a{
